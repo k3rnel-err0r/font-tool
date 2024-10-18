@@ -1,0 +1,25 @@
+#positionBoxContainer {
+    width: 1000px;
+    height: 1000px;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+#dragContainer {
+    width: 125%;
+    height: 100%;
+    position: relative;
+    left: -15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#positionBox {
+    width: min-content;
+    border: 2px blue dashed;
+    font-size: auto;
+    position: relative;
+    cursor: pointer;
+    text-wrap: nowrap;
+}

@@ -1,0 +1,1 @@
+export type BackgroundState = 'on' | 'off';
